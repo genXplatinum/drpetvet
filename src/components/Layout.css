@@ -1,0 +1,7 @@
+.page {
+  position: relative;
+  z-index: 1;
+}
+
+/* The 3D scene canvas fills the fixed background layer. */
+.scene-canvas { width: 100% !important; height: 100% !important; }

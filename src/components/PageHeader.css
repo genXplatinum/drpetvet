@@ -1,0 +1,18 @@
+.pagehead {
+  position: relative;
+  padding-top: clamp(7rem, 12vw, 10rem);
+  padding-bottom: clamp(1.5rem, 4vw, 3rem);
+  background:
+    radial-gradient(110% 90% at 90% -10%, rgba(255, 201, 60, 0.4), transparent 55%),
+    var(--paper);
+}
+.pagehead--green { background: radial-gradient(110% 90% at 90% -10%, rgba(31, 170, 89, 0.18), transparent 55%), var(--paper); }
+.pagehead--magenta { background: radial-gradient(110% 90% at 90% -10%, rgba(229, 64, 122, 0.16), transparent 55%), var(--paper); }
+.pagehead--sky { background: radial-gradient(110% 90% at 90% -10%, rgba(63, 167, 255, 0.2), transparent 55%), var(--paper); }
+
+.pagehead__inner { position: relative; z-index: 1; }
+.pagehead__content { max-width: 60ch; display: flex; flex-direction: column; gap: 1.1rem; }
+.pagehead__title { font-size: clamp(2.6rem, 1.4rem + 5vw, 5rem); }
+.pagehead__hindi { display: inline-block; }
+.pagehead__intro { max-width: 56ch; }
+.pagehead__divider { margin-top: clamp(2rem, 5vw, 3.5rem); color: var(--saffron); }

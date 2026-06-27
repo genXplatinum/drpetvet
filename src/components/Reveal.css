@@ -1,0 +1,21 @@
+.reveal {
+  transition:
+    opacity 0.8s var(--ease-out) var(--reveal-delay, 0ms),
+    transform 0.8s var(--ease-out) var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.reveal--up { transform: translateY(var(--reveal-y, 28px)); }
+.reveal--up.is-in { transform: translateY(0); }
+
+.reveal--fade { transform: none; }
+
+.reveal--pop { transform: translateY(var(--reveal-y, 28px)) scale(0.96); }
+.reveal--pop.is-in {
+  transform: translateY(0) scale(1);
+  transition-timing-function: var(--ease-bounce);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { transform: none !important; }
+}
