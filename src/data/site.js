@@ -196,12 +196,12 @@ export const doctor = {
 
 /* ---------- Doctor gallery (public/About) ---------- */
 export const doctorGallery = [
+  { src: 'About/9.jpg', alt: 'Dr. Rajpal Singh with a dog during a home visit in Darbhanga' },
+  { src: 'About/11.jpg', alt: 'Dr. Rajpal Singh caring for a pet dog at home' },
+  { src: 'About/10.jpg', alt: 'Dr. Rajpal Singh with a patient dog' },
   { src: 'About/7.jpg', alt: 'Dr. Rajpal Singh' },
   { src: 'About/8.jpg', alt: 'Dr. Rajpal Singh' },
   { src: 'About/4.jpg', alt: 'Dr. Rajpal Singh' },
-  { src: 'About/6.jpg', alt: 'Dr. Rajpal Singh' },
-  { src: 'About/1.jpg', alt: 'Dr. Rajpal Singh' },
-  { src: 'About/3.jpg', alt: 'Dr. Rajpal Singh' },
 ];
 
 /* ---------- Testimonials (samples, replace with real ones) ---------- */
