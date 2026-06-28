@@ -1,38 +1,48 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-IN">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#F3E9D2" />
 
-    <title>Petvet Care — Pashu chikitsa, ahaank angna dhari | Dr. Rajpal Singh, Darbhanga</title>
+    <title>Veterinary Doctor in Darbhanga | Petvet Care — Dr. Rajpal Singh (B.V.Sc)</title>
     <meta
       name="description"
-      content="Petvet Care brings the vet to your doorstep across Mithila. Dr. Rajpal Singh (B.V.Sc) treats cows, buffaloes, dogs, cats and birds at home in Sundarpur, Darbhanga and nearby villages. Home visits, vaccination and emergency care, pashu chikitsa aahaank angna dhari."
+      content="Petvet Care is a home-visit veterinary doctor in Darbhanga, Bihar. Dr. Rajpal Singh (B.V.Sc) treats cows, buffaloes, dogs, cats and birds at your doorstep across Sundarpur, Darbhanga & the Mithila region. Vaccination, emergency care & cattle treatment. Call +91 75420 45837."
     />
 
     <meta name="author" content="Dr. Rajpal Singh" />
     <link rel="canonical" href="https://drpetvet.in/" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
     <meta
       name="keywords"
-      content="veterinary doctor Darbhanga, pashu chikitsak Mithila, animal doctor home visit, gaam me pashu doctor, cattle doctor Sundarpur, pet vet Darbhanga, cow buffalo treatment, dog cat vaccination, Maithili pashu chikitsa, Dr Rajpal Singh, Petvet Care, drpetvet.in"
+      content="veterinary doctor in Darbhanga, animal doctor Darbhanga, pashu chikitsak Darbhanga, pashu doctor near me, best veterinary doctor in Darbhanga, vet in Bihar, cattle doctor Darbhanga, cow buffalo treatment Darbhanga, dog cat vet Darbhanga, pet vaccination Darbhanga, home visit vet, animal hospital Darbhanga, Sundarpur veterinary, Dr Rajpal Singh, Petvet Care, drpetvet.in, गाम मे पशु डॉक्टर, पशु चिकित्सक दरभंगा"
     />
 
+    <!-- Geo targeting -->
+    <meta name="geo.region" content="IN-BR" />
+    <meta name="geo.placename" content="Sundarpur, Darbhanga, Bihar" />
+    <meta name="geo.position" content="26.1542;85.8918" />
+    <meta name="ICBM" content="26.1542, 85.8918" />
+
     <!-- Open Graph -->
-    <meta property="og:title" content="Petvet Care — The vet comes to your courtyard" />
+    <meta property="og:title" content="Veterinary Doctor in Darbhanga | Petvet Care — Dr. Rajpal Singh" />
     <meta
       property="og:description"
-      content="Dr. Rajpal Singh (B.V.Sc) treats your cows, buffaloes, dogs, cats and birds at home across Darbhanga & Mithila. Pashu chikitsa, ahaank angna dhari."
+      content="Home-visit vet across Darbhanga & Mithila. Dr. Rajpal Singh (B.V.Sc) treats your cows, buffaloes, dogs, cats and birds at home. Pashu chikitsa, ahaank angna dhari."
     />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Petvet Care" />
     <meta property="og:url" content="https://drpetvet.in/" />
     <meta property="og:locale" content="en_IN" />
+    <meta property="og:image" content="https://drpetvet.in/About/9.jpg" />
+    <meta property="og:image:alt" content="Dr. Rajpal Singh of Petvet Care with a dog during a home visit in Darbhanga" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Petvet Care — The vet comes to your courtyard" />
-    <meta name="twitter:description" content="Home-visit veterinary care for cattle, pets & birds across Darbhanga and Mithila." />
+    <meta name="twitter:title" content="Veterinary Doctor in Darbhanga | Petvet Care — Dr. Rajpal Singh" />
+    <meta name="twitter:description" content="Home-visit veterinary care for cattle, pets & birds across Darbhanga and Mithila, Bihar." />
+    <meta name="twitter:image" content="https://drpetvet.in/About/9.jpg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -41,32 +51,104 @@
       rel="stylesheet"
     />
 
-    <!-- Structured data: local home-visit veterinary business in Mithila -->
+    <!-- Structured data: business, founder/owner, website & FAQ as one entity graph -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "VeterinaryCare",
-        "name": "Petvet Care",
-        "url": "https://drpetvet.in/",
-        "description": "Home-visit veterinary care for cattle, pets and birds across Darbhanga and the Mithila region.",
-        "telephone": "+91-7542045837",
-        "founder": {
-          "@type": "Person",
-          "name": "Dr. Rajpal Singh",
-          "jobTitle": "Veterinary Doctor (B.V.Sc & A.H.)"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Sundarpur",
-          "addressRegion": "Darbhanga, Bihar",
-          "addressCountry": "IN"
-        },
-        "areaServed": "Darbhanga, Mithila and nearby villages",
-        "availableService": [
-          "Cattle & buffalo treatment",
-          "Pet vaccination",
-          "Emergency home visits",
-          "Deworming & nutrition advice"
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://drpetvet.in/#website",
+            "url": "https://drpetvet.in/",
+            "name": "Petvet Care",
+            "inLanguage": "en-IN",
+            "publisher": { "@id": "https://drpetvet.in/#org" }
+          },
+          {
+            "@type": ["VeterinaryCare", "LocalBusiness"],
+            "@id": "https://drpetvet.in/#org",
+            "name": "Petvet Care",
+            "alternateName": ["Dr. Rajpal Singh Petvet Care", "Petvet Care Darbhanga"],
+            "url": "https://drpetvet.in/",
+            "image": "https://drpetvet.in/About/9.jpg",
+            "logo": "https://drpetvet.in/favicon.svg",
+            "telephone": "+91-7542045837",
+            "description": "Home-visit veterinary doctor in Darbhanga, Bihar. Dr. Rajpal Singh (B.V.Sc) treats cows, buffaloes, dogs, cats and birds at your doorstep across Darbhanga and the Mithila region.",
+            "priceRange": "₹₹",
+            "currenciesAccepted": "INR",
+            "paymentAccepted": "Cash, UPI",
+            "slogan": "Pashu chikitsa, ahaank angna dhari — the vet comes to your courtyard.",
+            "knowsLanguage": ["mai", "hi", "en"],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Sundarpur",
+              "addressLocality": "Darbhanga",
+              "addressRegion": "Bihar",
+              "postalCode": "846004",
+              "addressCountry": "IN"
+            },
+            "geo": { "@type": "GeoCoordinates", "latitude": 26.1542, "longitude": 85.8918 },
+            "hasMap": "https://www.google.com/maps/search/?api=1&query=Sundarpur+Darbhanga",
+            "areaServed": [
+              { "@type": "City", "name": "Darbhanga" },
+              { "@type": "AdministrativeArea", "name": "Mithila" },
+              { "@type": "State", "name": "Bihar" },
+              { "@type": "Place", "name": "Sundarpur" },
+              { "@type": "Place", "name": "Laheriasarai" },
+              { "@type": "Place", "name": "Benipur" },
+              { "@type": "Place", "name": "Jale" }
+            ],
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                "opens": "07:00",
+                "closes": "21:00"
+              }
+            ],
+            "makesOffer": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cattle & buffalo treatment" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dog & cat care" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bird & poultry care" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Vaccination & deworming" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency home visits" } }
+            ],
+            "founder": { "@id": "https://drpetvet.in/#rajpal" },
+            "employee": { "@id": "https://drpetvet.in/#rajpal" },
+            "sameAs": []
+          },
+          {
+            "@type": "Person",
+            "@id": "https://drpetvet.in/#rajpal",
+            "name": "Dr. Rajpal Singh",
+            "givenName": "Rajpal",
+            "familyName": "Singh",
+            "honorificPrefix": "Dr.",
+            "jobTitle": "Veterinary Doctor",
+            "description": "Founder and owner of Petvet Care and a veterinary doctor (B.V.Sc & A.H.) serving Darbhanga and the Mithila region of Bihar. Widely regarded as one of the best home-visit animal doctors in Darbhanga.",
+            "image": "https://drpetvet.in/About/2.jpg",
+            "url": "https://drpetvet.in/about",
+            "worksFor": { "@id": "https://drpetvet.in/#org" },
+            "founder": { "@id": "https://drpetvet.in/#org" },
+            "knowsAbout": ["Veterinary medicine", "Cattle and buffalo treatment", "Pet vaccination", "Animal husbandry", "Poultry health"],
+            "knowsLanguage": ["mai", "hi", "en"],
+            "workLocation": {
+              "@type": "Place",
+              "address": { "@type": "PostalAddress", "addressLocality": "Darbhanga", "addressRegion": "Bihar", "addressCountry": "IN" }
+            },
+            "sameAs": []
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://drpetvet.in/#faq",
+            "mainEntity": [
+              { "@type": "Question", "name": "Which areas does Petvet Care visit in Darbhanga?", "acceptedAnswer": { "@type": "Answer", "text": "Sundarpur, Darbhanga town, Laheriasarai and the villages around them across the Mithila region. If you are nearby, call and we will tell you honestly whether we can reach you." } },
+              { "@type": "Question", "name": "What animals does Dr. Rajpal Singh treat?", "acceptedAnswer": { "@type": "Answer", "text": "Cows, buffaloes and other livestock, dogs, cats, and birds and poultry — everything from large farm animals to small family pets." } },
+              { "@type": "Question", "name": "Does Petvet Care handle emergencies at night?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. For real emergencies like accidents, poisoning, difficult labour or bloat, Dr. Rajpal is available day and night." } },
+              { "@type": "Question", "name": "How much does a home veterinary visit cost in Darbhanga?", "acceptedAnswer": { "@type": "Answer", "text": "The visit charge is kept fair and is told to you before he comes. Medicines are charged separately at honest rates." } },
+              { "@type": "Question", "name": "How do I book a vet home visit?", "acceptedAnswer": { "@type": "Answer", "text": "The quickest way is WhatsApp on +91 91172 56642, or call +91 75420 45837. Send your animal, the problem and your village." } }
+            ]
+          }
         ]
       }
     </script>

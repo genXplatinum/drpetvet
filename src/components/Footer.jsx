@@ -68,6 +68,13 @@ export default function Footer() {
           </div>
         </div>
 
+        <p className="footer__seo">
+          Petvet Care is a home-visit veterinary doctor (pashu chikitsak) in Darbhanga, Bihar.
+          Dr. Rajpal Singh (B.V.Sc & A.H.) treats cows, buffaloes, dogs, cats and birds at your
+          doorstep across Sundarpur, Laheriasarai, Benipur, Jale and nearby villages of the Mithila region —
+          home visits, vaccination, cattle treatment and emergency animal care.
+        </p>
+
         <div className="footer__colophon">
           <span>© {year} {site.name} · {site.region}</span>
           <span className="footer__made">

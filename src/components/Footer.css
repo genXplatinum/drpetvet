@@ -32,6 +32,15 @@
 .footer__link--static { cursor: default; }
 .footer__link--static:hover { transform: none; }
 
+.footer__seo {
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: rgba(239, 226, 196, 0.62);
+  max-width: 92ch;
+  padding-block: 1.4rem 0.2rem;
+  border-top: 1px solid rgba(239, 226, 196, 0.12);
+}
+
 .footer__colophon {
   display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between;
   padding-top: 2rem; border-top: 1px solid rgba(239, 226, 196, 0.2);

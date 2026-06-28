@@ -185,7 +185,7 @@ export const doctor = {
   headline: 'A village vet who actually picks up the phone.',
   headlineMai: 'गाम के डॉक्टर, जे फोन उठबैत छथि।',
   bio: [
-    'Dr. Rajpal Singh is a qualified veterinary doctor (B.V.Sc) who looks after the animals of Sundarpur and the wider Darbhanga area. He grew up around cattle and farms, so he knows that here an animal is not just a pet. It is the family’s income and very often its food.',
+    'Dr. Rajpal Singh is the founder and owner of Petvet Care and a qualified veterinary doctor (B.V.Sc & A.H.) serving Sundarpur, Darbhanga and the wider Mithila region of Bihar. He grew up around cattle and farms, so he knows that here an animal is not just a pet. It is the family’s income and very often its food.',
     'Instead of sitting behind a clinic counter, he started Petvet Care with one simple promise: the doctor comes to you. From a buffalo struggling to give birth at dawn to a child’s injured puppy at night, he has spent years on the road and treated thousands of animals across the district.',
     'Honest advice, a steady hand, and a phone that actually gets answered. That is what Petvet Care is about.',
   ],
