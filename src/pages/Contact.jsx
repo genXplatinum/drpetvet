@@ -60,6 +60,9 @@ export default function Contact() {
             <a className="contact__map" href={site.mapUrl} target="_blank" rel="noreferrer">
               <Icon name="location" size={20} /> Open in Google Maps <span className="link__arrow">→</span>
             </a>
+            <a className="contact__map" href={site.instagram} target="_blank" rel="noreferrer">
+              <Icon name="instagram" size={20} /> Follow on Instagram {site.instagramHandle} <span className="link__arrow">→</span>
+            </a>
           </Reveal>
 
           <Reveal className="contact__form-wrap card" variant="up">

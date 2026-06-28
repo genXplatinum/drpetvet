@@ -106,6 +106,13 @@ const paths = {
   star: (
     <path d="M12 4l2.3 4.8 5.2.7-3.8 3.6.9 5.2L12 16.6 7.4 18.3l.9-5.2L4.5 9.5l5.2-.7L12 4Z" />
   ),
+  instagram: (
+    <>
+      <rect x="3.5" y="3.5" width="17" height="17" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="17" cy="7" r="1.1" fill="currentColor" stroke="none" />
+    </>
+  ),
 };
 
 export default function Icon({ name, size = 24, className = '', strokeWidth = 1.7 }) {

@@ -65,6 +65,7 @@ export default function Footer() {
             <span className="footer__link footer__link--static"><Icon name="location" size={15} /> {site.city}</span>
             <span className="footer__link footer__link--static"><Icon name="clock" size={15} /> {site.hours}</span>
             <a href={tel()} className="footer__link"><Icon name="phone" size={15} /> {PHONE_DISPLAY}</a>
+            <a href={site.instagram} target="_blank" rel="noreferrer" className="footer__link"><Icon name="instagram" size={15} /> {site.instagramHandle}</a>
           </div>
         </div>
 

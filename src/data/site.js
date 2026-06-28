@@ -36,9 +36,11 @@ export const site = {
   bharEn: 'Your animal is family to us.',
   city: 'Sundarpur, Darbhanga',
   region: 'Mithila · Bihar, India',
-  address: 'Sundarpur, Darbhanga, Bihar 846004', // TODO: confirm
-  mapUrl: 'https://www.google.com/maps/search/?api=1&query=Sundarpur+Darbhanga',
+  address: 'Dera, near Hanuman Mandir & Bira Middle School, Sundarpur, Basdeopur, Darbhanga, Bihar 846005',
+  mapUrl: 'https://www.google.com/maps/search/?api=1&query=Bira+Middle+School+Sundarpur+Darbhanga',
   hours: 'Open every day, 7 AM to 9 PM. Emergencies anytime.',
+  instagram: 'https://www.instagram.com/drpetvetdbg',
+  instagramHandle: '@drpetvetdbg',
   manifesto:
     'When an animal is sick or hurt, the last thing it needs is a long, frightening journey to a clinic. So Dr. Rajpal Singh comes to you instead. You get the same trusted care at your own home, farm or gaushala, where your animal feels safe and calm.',
 };
@@ -165,7 +167,7 @@ export const why = [
 export const stats = [
   { value: '5000+', label: 'Animals treated', mai: 'पशु के इलाज' },
   { value: '40+', label: 'Villages covered', mai: 'गाम' },
-  { value: '7+', label: 'Years of practice', mai: 'बरख अनुभव' },
+  { value: '10+', label: 'Years of practice', mai: 'बरख अनुभव' },
   { value: '24/7', label: 'Emergency on call', mai: 'आपात सेवा' },
 ];
 
@@ -186,7 +188,7 @@ export const doctor = {
   headlineMai: 'गाम के डॉक्टर, जे फोन उठबैत छथि।',
   bio: [
     'Dr. Rajpal Singh is the founder and owner of Petvet Care and a qualified veterinary doctor (B.V.Sc & A.H.) serving Sundarpur, Darbhanga and the wider Mithila region of Bihar. He grew up around cattle and farms, so he knows that here an animal is not just a pet. It is the family’s income and very often its food.',
-    'Instead of sitting behind a clinic counter, he started Petvet Care with one simple promise: the doctor comes to you. From a buffalo struggling to give birth at dawn to a child’s injured puppy at night, he has spent years on the road and treated thousands of animals across the district.',
+    'Instead of sitting behind a clinic counter, he started Petvet Care with one simple promise: the doctor comes to you. From a buffalo struggling to give birth at dawn to a child’s injured puppy at night, he has spent over a decade on the road and treated thousands of animals across the district.',
     'Honest advice, a steady hand, and a phone that actually gets answered. That is what Petvet Care is about.',
   ],
   quote:
