@@ -1,41 +1,21 @@
 .wa-fab {
-  position: fixed;
-  right: clamp(1rem, 3vw, 2rem);
-  bottom: clamp(1rem, 3vw, 2rem);
-  z-index: 900;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55em;
-  padding: 0.85em 1.2em;
-  border-radius: var(--radius-pill);
-  background: var(--whatsapp);
-  color: var(--white);
-  font-family: var(--font-display);
-  font-weight: 700;
-  box-shadow: 0 10px 26px rgba(37, 211, 102, 0.45);
-  transition: transform 0.3s var(--ease-bounce), box-shadow 0.3s var(--ease-out);
+  position: fixed; right: clamp(1rem, 3vw, 2rem); bottom: clamp(1rem, 3vw, 2rem); z-index: 900;
+  display: inline-flex; align-items: center; gap: 0.5em;
+  padding: 0.8em 1.2em; border-radius: var(--radius-pill);
+  background: var(--whatsapp); color: var(--cream);
+  font-family: var(--font-deva); font-weight: 600; font-size: 1.05rem;
+  border: 2px solid var(--ink);
+  box-shadow: 4px 4px 0 var(--whatsapp-2);
+  transition: transform 0.25s var(--ease-bounce), box-shadow 0.25s var(--ease-out);
 }
-.wa-fab:hover { transform: translateY(-3px) scale(1.03); box-shadow: 0 14px 30px rgba(37, 211, 102, 0.5); }
-.wa-fab:active { transform: translateY(0) scale(0.98); }
+.wa-fab:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--whatsapp-2); }
+.wa-fab:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--whatsapp-2); }
 
 .wa-fab__pulse {
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  border: 2px solid var(--whatsapp);
-  animation: wa-pulse 2.4s var(--ease-out) infinite;
-  pointer-events: none;
+  position: absolute; inset: -2px; border-radius: inherit; border: 2px solid var(--whatsapp);
+  animation: wa-pulse 2.4s var(--ease-out) infinite; pointer-events: none;
 }
-@keyframes wa-pulse {
-  0% { transform: scale(1); opacity: 0.7; }
-  70% { transform: scale(1.25); opacity: 0; }
-  100% { opacity: 0; }
-}
+@keyframes wa-pulse { 0% { transform: scale(1); opacity: 0.6; } 70% { transform: scale(1.2); opacity: 0; } 100% { opacity: 0; } }
 
-@media (max-width: 560px) {
-  .wa-fab__label { display: none; }
-  .wa-fab { padding: 0.9em; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .wa-fab__pulse { animation: none; }
-}
+@media (max-width: 560px) { .wa-fab__label { display: none; } .wa-fab { padding: 0.9em; } }
+@media (prefers-reduced-motion: reduce) { .wa-fab__pulse { animation: none; } }

@@ -1,2 +1,6 @@
-.mb-divider { display: block; line-height: 0; width: 100%; color: var(--saffron); }
+.mb-divider { display: block; line-height: 0; width: 100%; color: var(--sindoor); }
 .mb-glyph { display: block; }
+
+/* Ornamental frame — absolutely-placed corner flourishes inside a positioned parent. */
+.mb-frame { position: absolute; inset: 0; pointer-events: none; color: var(--ink); }
+.mb-frame__c { position: absolute; width: 30px; height: 30px; opacity: 0.5; }
